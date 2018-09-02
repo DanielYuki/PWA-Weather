@@ -180,9 +180,9 @@
             results.label = label;
             results.created = json.query.created;
             app.updateForecastCard(results);
-          })
+          });
         }
-      })
+      });
     }
     
     // Fetch the latest data.
